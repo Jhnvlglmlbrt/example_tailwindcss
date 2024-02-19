@@ -1,4 +1,4 @@
-### so much css code because of tailwind.
+### so much css code because of tailwind so...
 
 
 # techonology stack:
