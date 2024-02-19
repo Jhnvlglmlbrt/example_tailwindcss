@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Templates</title>
 
     <link rel="stylesheet" href="/static/output.css">
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
 </head>
+
 <body>
 
     <div class="flex flex-col h-screen justify-center items-center bg-slate-100">
-        <span class="text-4xl font-semibold text-slate-950">Hello and welcome to my website, {{.Name}}</span>
+        <span class="text-4xl font-mono font-semibold text-slate-950">Hello and welcome to my website, {{.Name}}</span>
+        <button hx-get="/tasks" hx-trigger="click" hx-target="#tasksResult"
+            class="text-2xl mt-4 px-4 py-2 font-mono bg-blue-500 text-white rounded hover:bg-blue-600">
+            Go to Tasks
+        </button>
+        <div id="tasksResult" class="mt-4"></div>
     </div>
-    
 </body>
+
 </html>
