@@ -1,3 +1,6 @@
+### so much css code because of tailwind.
+
+
 # techonology stack:
 
 go, tailwindcss, air
