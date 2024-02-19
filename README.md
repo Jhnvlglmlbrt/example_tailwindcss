@@ -47,3 +47,12 @@ and this in another
 ```
 air
 ```
+
+
+### Also
+
+dont forget to add that code in your html 
+
+```
+<link rel="stylesheet" href="/static/output.css">
+```

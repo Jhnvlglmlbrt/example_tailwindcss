@@ -23,3 +23,8 @@ func main() {
 
 	app.Listen(":8080")
 }
+
+// TODO:
+// add Parcel
+// add templ
+// add htmx
